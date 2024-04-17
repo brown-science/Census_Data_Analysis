@@ -154,9 +154,9 @@ count = 1 # index for above vector, used in loop
 
 for (i in 1:length(train)){ # The first few lines of the loop prints the tables with variable comparisons.
   
-  print(glue("Table of {colnames(train)[i]} (left) v. over_50k (right)")) # prints the variable comparisons above each table
-  print(table(train[, i], train$over_50k)) # prints the actual table
-  cat("\n") # adds a space between each table
+  #print(glue("Table of {colnames(train)[i]} (left) v. over_50k (right)")) # prints the variable comparisons above each table
+  #print(table(train[, i], train$over_50k)) # prints the actual table
+  #cat("\n") # adds a space between each table
   if(0 %in% table(train[, i], train$over_50k)){ # If there are separation concerns (an observation value perfectly predicts the target)
     sep_conc[count] = colnames(train)[i] # append the variable to this list at position "count"
     count = count + 1 # count increases by one after each variable is added to sep_conc
