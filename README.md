@@ -1,6 +1,6 @@
 # Census_Data_Analysis
 
-### File descriptions
+## File descriptions
 EDA: EDA of categorical variables  
 Analysis_Summary.docx: writeup of the methodology
 census_data.sqlite: SQL data base containing the 1996 census data
@@ -9,8 +9,9 @@ data.csv: csv of the flattened data
 main.Rmd:  R Markdown file with all of the code used to complete the project          
 main.md: Markdown Report                                     
     
+## Project report
 
-#### This project is an analysis of US census data from 1996. I recommend implementing a logistic regression model to predict whether individuals, based on the census variables in the dataset, make over $50,000/year. I also explored an initial random forest model, which has the potential to significantly outperform the logistic regression model once tuned, but to maintain interpretability, I prioritized the logistic regression model.
+### This project is an analysis of US census data from 1996. I recommend implementing a logistic regression model to predict whether individuals, based on the census variables in the dataset, make over $50,000/year. I also explored an initial random forest model, which has the potential to significantly outperform the logistic regression model once tuned, but to maintain interpretability, I prioritized the logistic regression model.
 
 Before preparing the data for analysis, the following packages must be
 loaded.
